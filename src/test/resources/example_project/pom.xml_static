@@ -1,0 +1,17 @@
+<project>
+	<groupId>lame</groupId>
+	<artifactId>laven-example-project</artifactId>
+	<version>0.0.0</version>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>lame</groupId>
+				<artifactId>laven</artifactId>
+				<configuration>
+					<settings implementation="lame.laven.stubs.SettingsStub" />
+					<project implementation="lame.laven.stubs.ProjectStub" />
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
